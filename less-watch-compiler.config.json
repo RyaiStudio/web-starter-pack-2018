@@ -1,0 +1,7 @@
+{
+    "minified": true,
+    "sourceMap": true,
+    "watchFolder": "assets/less",
+    "outputFolder": "assets/css",
+    "mainFile": "less-style.less"
+}

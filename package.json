@@ -1,0 +1,32 @@
+{
+  "name": "web-starter-pack-2018",
+  "version": "1.0.0",
+  "description": "starter pack for web-development",
+  "main": "server.js",
+  "scripts": {
+    "sass": "sass --watch ./assets/sass:./assets/css --sourcemap:true --style compressed",
+    "scss": "sass --watch ./assets/scss:./assets/css --sourcemap:true --style compressed",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/private-ryan23/web-starter-pack-2018.git"
+  },
+  "keywords": [
+    "web-starter-pack"
+  ],
+  "author": "Ryai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/private-ryan23/web-starter-pack-2018/issues"
+  },
+  "homepage": "https://github.com/private-ryan23/web-starter-pack-2018#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "less": "^3.8.1",
+    "less-watch-compiler": "^1.13.0",
+    "sass": "^1.14.3",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
